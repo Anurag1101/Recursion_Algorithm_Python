@@ -20,6 +20,7 @@ def factorial(n):
 # Print the factorial of 6
 print(factorial(6))
 
+# Program 3
 # Recursive function to calculate the sum of first n natural numbers
 def sum_natural_numbers(n): 
     if n == 0:  # Base case: Sum of first 0 natural numbers is 0
@@ -29,6 +30,7 @@ def sum_natural_numbers(n):
 # Print the sum of first 20 natural numbers
 print(sum_natural_numbers(20))
 
+#Program 4
 # Recursive function to print each element of a list
 def print_list_elements(li, index=0): 
     if index == len(li):  # Base case: When index reaches the length of the list, stop
