@@ -62,22 +62,27 @@ This program calculates the sum of the first n natural numbers (i.e., 1 + 2 + 3 
     210
 
 
-4. Print Elements of a List
+**4. Print Elements of a List**:
+
 This program recursively prints each element in a list of fruits. The function takes a list and an optional index (defaulting to 0) as input and prints each element one by one using recursion.
 
-Function: print_list_elements(li, index=0)
-Input: A list li and an optional starting index (default is 0)
-Output: Each element of the list printed in order
-Base Case: When the index reaches the length of the list, the recursion stops.
-Example:
+**Function:**  print_list_elements(li, index=0)
 
-bash
-Copy code
-Fruits in the list:
-apple
-mango
-banana
-guava
+**Input:**  A list li and an optional starting index (default is 0)
+
+**Output:** Each element of the list printed in order
+
+**Base Case:**  When the index reaches the length of the list, the recursion stops.
+
+**Example:**
+
+    Fruits in the list:
+    apple
+    mango
+    banana
+    guava
+
+
 How to Run the Programs
 Navigate to the folder where the Python files are located. In this case, the folder path is:
 
