@@ -1,25 +1,33 @@
-Recursive Algorithms in Python
+**Recursive Algorithms in Python**
+
 This repository contains several recursive functions that demonstrate how recursion can be used to solve different types of problems. Recursion is a programming technique where a function calls itself to solve a problem, breaking it down into smaller instances until it reaches a base case.
 
-Programs Included
-1. Countdown Program
+**Programs Included**:
+
+**1. Countdown Program**:
+   
 This program demonstrates a recursive function to count down from a given number n to 1. It takes a positive integer as input and prints each number in descending order using recursion.
 
-Function: count_down(n)
-Input: A positive integer n
-Output: Prints numbers from n to 1
-Base Case: When n equals 0, the recursion stops.
-Example:
+**Function:** count_down(n)
 
-bash
-Copy code
-Enter the number: 5
-5
-4
-3
-2
-1
-2. Factorial Calculation Program
+**Input:** A positive integer n
+
+**Output:** Prints numbers from n to 1
+
+**Base Case:** When n equals 0, the recursion stops.
+
+**Example:**
+
+    Enter the number: 5
+    5
+    4
+    3
+    2
+    1
+
+
+**2. Factorial Calculation Program**:
+
 This program calculates the factorial of a number using recursion. Factorial is defined as the product of all positive integers less than or equal to the number. For instance, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
 
 Function: factorial(n)
