@@ -84,24 +84,16 @@ This program recursively prints each element in a list of fruits. The function t
             guava
 
 
-How to Run the Programs
-Navigate to the folder where the Python files are located. In this case, the folder path is:
+**How to Run the Programs**:
 
-bash
-Copy code
-C:\Users\anura\OneDrive\Desktop\Python\Recursion_Algorithm_Python
-Run the Python file:
+    Navigate to the folder where the Python files are located. In this case, the folder path is: C:\Users\anura\OneDrive\Desktop\Python\Recursion_Algorithm_Python
 
-Open a terminal or command prompt and navigate to the directory:
+    Run the Python file:
+      
+    Open a terminal or command prompt and navigate to the directory: cd "C:\Users\anura\OneDrive\Desktop\Python\Recursion_Algorithm_Python"
+    
+    Run the Python script: python recursion_programs.py
 
-bash
-Copy code
-cd "C:\Users\anura\OneDrive\Desktop\Python\Recursion_Algorithm_Python"
-Run the Python script:
-
-bash
-Copy code
-python recursion_programs.py
 Provide inputs when prompted for each of the programs, and the output will be displayed directly in the terminal.
 
 Concepts Demonstrated
