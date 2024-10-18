@@ -94,11 +94,16 @@ This program recursively prints each element in a list of fruits. The function t
     
     Run the Python script: python recursion_programs.py
 
-Provide inputs when prompted for each of the programs, and the output will be displayed directly in the terminal.
+    Provide inputs when prompted for each of the programs, and the output will be displayed directly in the terminal.
 
-Concepts Demonstrated
-Recursion: All the programs in this repository are based on the concept of recursion. The key idea is to define a problem in terms of a smaller instance of the same problem, with a base case to stop the recursion.
-Base Case: The condition that stops the recursion and prevents an infinite loop.
-Recursive Case: The part of the function where it calls itself with a smaller or simpler input.
-Contributions
+**Concepts Demonstrated**:
+
+**Recursion:** All the programs in this repository are based on the concept of recursion. The key idea is to define a problem in terms of a smaller instance of the same problem, with a base case to stop the recursion.
+
+**Base Case:** The condition that stops the recursion and prevents an infinite loop.
+
+**Recursive Case:**  The part of the function where it calls itself with a smaller or simpler input.
+
+**Contributions**:
+
 Feel free to fork this repository and submit a pull request if you'd like to contribute new recursive functions or improve the existing code.
