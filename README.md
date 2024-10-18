@@ -42,7 +42,7 @@ This program calculates the factorial of a number using recursion. Factorial is 
 **Example:**
 
     Enter the number: 6
-    720
+    Output : 720
 
 
 **3. Sum of First N Natural Numbers**:
@@ -60,7 +60,7 @@ This program calculates the sum of the first n natural numbers (i.e., 1 + 2 + 3 
 **Example:**
 
     Enter the value of n: 20
-    210
+    Output : 210
 
 
 **4. Print Elements of a List**:
@@ -77,11 +77,11 @@ This program recursively prints each element in a list of fruits. The function t
 
 **Example:**
 
-    Fruits in the list:
-    apple
-    mango
-    banana
-    guava
+    Output: Fruits in the list:
+            apple
+            mango
+            banana
+            guava
 
 
 How to Run the Programs
