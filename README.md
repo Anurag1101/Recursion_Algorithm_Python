@@ -19,11 +19,12 @@ This program demonstrates a recursive function to count down from a given number
 **Example:**
 
     Enter the number: 5
-    5
-    4
-    3
-    2
-    1
+    Output: 5
+            4
+            3
+            2
+            1
+    
 
 
 **2. Factorial Calculation Program**:
