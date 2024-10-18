@@ -44,19 +44,24 @@ This program calculates the factorial of a number using recursion. Factorial is 
     720
 
 
-3. Sum of First N Natural Numbers
+**3. Sum of First N Natural Numbers**:
+
 This program calculates the sum of the first n natural numbers (i.e., 1 + 2 + 3 + ... + n) using recursion. The base case is when n is 0, at which point the sum is 0.
 
-Function: sum_natural_numbers(n)
-Input: A non-negative integer n
-Output: The sum of the first n natural numbers
-Base Case: If n is 0, the sum is 0.
-Example:
+**Function:** sum_natural_numbers(n)
 
-bash
-Copy code
-Enter the value of n: 20
-210
+**Input:** A non-negative integer n
+
+**Output:** The sum of the first n natural numbers
+
+**Base Case:** If n is 0, the sum is 0.
+
+**Example:**
+
+    Enter the value of n: 20
+    210
+
+
 4. Print Elements of a List
 This program recursively prints each element in a list of fruits. The function takes a list and an optional index (defaulting to 0) as input and prints each element one by one using recursion.
 
