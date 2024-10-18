@@ -6,8 +6,9 @@ def count_down(n):
     print(n)  # Print the current number
     count_down(n - 1)  # Recursive call to count down from the next number
 
-# Calling the count_down function with n = 5
-count_down(5)
+# Calling the count_down function with n 
+n=int(input("Enter the number: "))
+count_down(n)
 
 # Program 2
 # Recursive function to calculate the factorial of a number
@@ -17,8 +18,9 @@ def factorial(n):
     else:
         return factorial(n - 1) * n  # Recursive call to calculate factorial of n-1
 
-# Print the factorial of 6
-print(factorial(6))
+# Print the factorial of n
+n=int(input("Enter the number: "))
+print(factorial(n))
 
 # Program 3
 # Recursive function to calculate the sum of first n natural numbers
@@ -27,8 +29,9 @@ def sum_natural_numbers(n):
         return 0
     return sum_natural_numbers(n - 1) + n  # Recursive call to sum numbers from n-1
 
-# Print the sum of first 20 natural numbers
-print(sum_natural_numbers(20))
+# Print the sum of first n natural numbers
+n=int(input("Enter the value of n: "))
+print(sum_natural_numbers(n))
 
 #Program 4
 # Recursive function to print each element of a list
