@@ -1,29 +1,42 @@
-def count(n): #recursive function
-    if(n==0): #base case
+# Recursive function to count down from n to 1
+def count_down(n): 
+    if n == 0:  # Base case: When n reaches 0, stop the recursion
         return
-    print(n)
-    count(n-1)
-count(5)
+    print(n)  # Print the current number
+    count_down(n - 1)  # Recursive call to count down from the next number
 
-def fact(n): #factorial using recursion
-    if(n==0 or n==1):
+# Calling the count_down function with n = 5
+count_down(5)
+
+# Recursive function to calculate the factorial of a number
+def factorial(n): 
+    if n == 0 or n == 1:  # Base case: Factorial of 0 and 1 is 1
         return 1
     else:
-        return  fact(n-1)*n
-print(fact(6))
+        return factorial(n - 1) * n  # Recursive call to calculate factorial of n-1
 
-def sum(n): #sum of first n natural number using recursion
-    if(n==0):
+# Print the factorial of 6
+print(factorial(6))
+
+# Recursive function to calculate the sum of first n natural numbers
+def sum_natural_numbers(n): 
+    if n == 0:  # Base case: Sum of first 0 natural numbers is 0
         return 0
-    return sum(n-1)+n
-print(sum(20))
+    return sum_natural_numbers(n - 1) + n  # Recursive call to sum numbers from n-1
 
-def count(li,ind=0): #print element of list using recusrion
-    if(ind==len(li)):
+# Print the sum of first 20 natural numbers
+print(sum_natural_numbers(20))
+
+# Recursive function to print each element of a list
+def print_list_elements(li, index=0): 
+    if index == len(li):  # Base case: When index reaches the length of the list, stop
         return
-    print(li[ind])
-    count(li,ind+1)
+    print(li[index])  # Print the element at the current index
+    print_list_elements(li, index + 1)  # Recursive call to move to the next index
 
-fruits=["apple","mango","banana","guava"]
-count(fruits)
+# Define a list of fruits
+fruits = ["apple", "mango", "banana", "guava"]
+
+# Call the function to print each fruit in the list
+print_list_elements(fruits)
 
