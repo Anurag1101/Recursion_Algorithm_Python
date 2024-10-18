@@ -1,3 +1,4 @@
+# Program 1
 # Recursive function to count down from n to 1
 def count_down(n): 
     if n == 0:  # Base case: When n reaches 0, stop the recursion
@@ -8,6 +9,7 @@ def count_down(n):
 # Calling the count_down function with n = 5
 count_down(5)
 
+# Program 2
 # Recursive function to calculate the factorial of a number
 def factorial(n): 
     if n == 0 or n == 1:  # Base case: Factorial of 0 and 1 is 1
