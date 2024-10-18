@@ -30,16 +30,20 @@ This program demonstrates a recursive function to count down from a given number
 
 This program calculates the factorial of a number using recursion. Factorial is defined as the product of all positive integers less than or equal to the number. For instance, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
 
-Function: factorial(n)
-Input: A non-negative integer n
-Output: The factorial of n
-Base Case: If n is 0 or 1, the factorial is 1 (as 0! = 1! = 1).
-Example:
+**Function:** factorial(n)
 
-bash
-Copy code
-Enter the number: 6
-720
+**Input:** A non-negative integer n
+
+**Output:** The factorial of n
+
+**Base Case:** If n is 0 or 1, the factorial is 1 (as 0! = 1! = 1).
+
+**Example:**
+
+    Enter the number: 6
+    720
+
+
 3. Sum of First N Natural Numbers
 This program calculates the sum of the first n natural numbers (i.e., 1 + 2 + 3 + ... + n) using recursion. The base case is when n is 0, at which point the sum is 0.
 
