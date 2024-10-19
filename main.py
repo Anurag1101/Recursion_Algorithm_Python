@@ -23,7 +23,6 @@ n=int(input("Enter the number: "))
 print(factorial(n))
 
 # Program 3
-
 # Recursive function to calculate the sum of first n natural numbers
 def sum_natural_numbers(n): 
     if n == 0:  # Base case: Sum of first 0 natural numbers is 0
