@@ -34,7 +34,6 @@ n=int(input("Enter the value of n: "))
 print(sum_natural_numbers(n))
 
 #Program 4
-
 # Recursive function to print each element of a list
 def print_list_elements(li, index=0): 
     if index == len(li):  # Base case: When index reaches the length of the list, stop
