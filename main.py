@@ -12,6 +12,7 @@ n=int(input("Enter the number: "))
 count_down(n)
 
 # Program 2
+
 # Recursive function to calculate the factorial of a number
 def factorial(n): 
     if n == 0 or n == 1:  # Base case: Factorial of 0 and 1 is 1
